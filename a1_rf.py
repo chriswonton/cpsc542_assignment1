@@ -95,7 +95,7 @@ weights = class_weight.compute_sample_weight('balanced', y_train)
 cm_norm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
 plt.figure(figsize=(10,8))
 sns.heatmap(cm, annot=True, fmt='.2f', cmap='Blues', xticklabels=classes, yticklabels=classes)
-plt.title('RF Test Confusion Matrix')
+plt.title('RF Train Confusion Matrix')
 plt.xlabel('Predicted')
 plt.ylabel('True')
 plt.savefig('visualizations/rf/cm_train_rf.png')
