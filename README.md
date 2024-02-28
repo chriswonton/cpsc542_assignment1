@@ -1,8 +1,11 @@
 # CPSC380 Programming Assignment 1
 
 Chris Ton-That
+
 2371950
+
 tonthat@chapman.edu
+
 CPSC542 Section 01
 
 ## Github:
